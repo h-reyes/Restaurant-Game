@@ -15,7 +15,7 @@ import OrderHistoryPage from './pages/OrderHistory/OrderHistory';
 
 
 function App() {
-  const [user, setUser] = useState({})
+  const [user, setUser] = useState(null)
 
   return (
     <main className="App">
