@@ -27,8 +27,7 @@ const SignUpForm = ({ setUser }) => {
       // will resolve to the user object included in the
       // payload of the JSON Web Token (JWT)
       const user = await signUp(userData);
-      // setUser(user)
-      console.log(user)
+      setUser(user)
     } catch (error) {
       // An error has occurred
       setError("Sign Up Failed - Try Again");
