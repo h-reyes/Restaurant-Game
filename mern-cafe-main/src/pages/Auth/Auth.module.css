@@ -1,0 +1,18 @@
+.Auth {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  border-radius: 2vmin;
+}
+/* .form-container{
+background: var(--white);
+} */
+
+.Auth h2 {
+  margin-top: 4vmin;
+  text-align: center;
+  color: var(--text-light);
+  cursor: pointer;
+}
