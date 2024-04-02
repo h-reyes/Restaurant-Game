@@ -21,3 +21,7 @@ Unsolved Problems: Bug with display formation of the game side bar, display of o
 
 Future Enhancements: Future enhancements setting up wallet for the user, randomization of phrases in the blank ordering section, user created menu items.
 
+How to start servers:
+1. Open terminal and navigate to the project folder
+2. Run `npm install` in order to download all dependencies for this project (express, socket.io, nodemon). If you already have (where you have downloaded this repository).
+3. To start the server you must 
